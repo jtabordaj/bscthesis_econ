@@ -1,0 +1,13 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction and problem statement}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoretical Framework}{3}{section.2}%
+\contentsline {section}{\numberline {3}Literature Review}{7}{section.3}%
+\contentsline {section}{\numberline {4}Methodology}{11}{section.4}%
+\contentsline {section}{\numberline {5}The Cluster}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Results}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Discussion}{18}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Policy implications}{21}{section.6}%
+\contentsline {section}{\numberline {7}Conclusions and final remarks}{24}{section.7}%
+\contentsline {section}{\numberline {A}Annex 1: Universe of study for the EDIT survey.}{30}{appendix.A}%
+\contentsline {section}{\numberline {B}Annex 2: Industry-level results}{31}{appendix.B}%
+\contentsline {section}{\numberline {C}Annex 3: Schumpeterian characterization at the industry level}{34}{appendix.C}%

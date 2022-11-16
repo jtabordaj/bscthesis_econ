@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction and problem statement}{1}{section.1}%
+\contentsline {section}{\numberline {2}Objective Setup}{2}{section.2}%
+\contentsline {section}{\numberline {3}Theoretical Framework}{3}{section.3}%
+\contentsline {section}{\numberline {4}Literature Review}{5}{section.4}%
+\contentsline {section}{\numberline {5}Methodology}{7}{section.5}%
+\contentsline {section}{\numberline {6}The Cluster}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Preliminary Results}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Preliminary Analysis}{12}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Preliminary Conclusions}{15}{section.7}%
+\contentsline {section}{\numberline {A}Annex 1: Universe of study for the EDIT survey.}{20}{appendix.A}%
+\contentsline {section}{\numberline {B}Annex 2: Industry-level results}{21}{appendix.B}%
