@@ -1,0 +1,53 @@
+\documentclass[12pt,a3paper]{article}
+\usepackage{amsmath}				
+\usepackage[utf8]{inputenc}			
+\usepackage[T1]{fontenc}			
+\usepackage[spanish]{babel}			
+\usepackage{graphicx}				
+\usepackage{subfigure}				
+\usepackage{lscape}					
+\usepackage{pst-plot, pstricks}		
+\usepackage{fancybox,amssymb,color}	
+\usepackage{setspace}				
+\usepackage{booktabs} 	
+\usepackage{longtable}	
+\usepackage{adjustbox}		
+
+\onehalfspacing
+\pagestyle{plain}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{1ex}
+
+\usepackage{geometry}
+		 
+\geometry{
+	a4paper,					 
+	left=30mm,					 
+	right=40mm,					 
+	top=35mm,					 
+	bottom=30mm,				 
+	includehead,				
+}
+
+\usepackage{multirow}
+
+\begin{document}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{longtable}{lcll}[h!]
+		\hline
+		\multicolumn{1}{c}{\textbf{Dimension}}                                                  & \textbf{Concept}                                                                                                          & \multicolumn{1}{c}{\textbf{Variable}} & \multicolumn{1}{c}{\textbf{Description}}                                                                                                                                                                                                         \\ \hline
+		\multirow{2}{*}{Stability}                                                              & \begin{tabular}[c]{@{}c@{}}Amount of \\ radical \\ innovations\end{tabular}                                               & I1R4C2N                               & \begin{tabular}[c]{@{}l@{}}Goods and services that are \\ new or different from those \\ existing in the market, and \\ were introduced in the \\ 2017-2018 period.\end{tabular}                                                                 \\ \cline{2-4} 
+		& \begin{tabular}[c]{@{}c@{}}Amount of\\  incremental \\ innovations\end{tabular}                                           & I1R4C2M                               & \begin{tabular}[c]{@{}l@{}}Goods and services that are \\ improvements to existing \\ goods or services in the market, \\ and were introduced in the \\ 2017-2018 period\end{tabular}                                                            \\ \hline
+		\multirow{4}{*}{Concentration}                                                          & Total sales                                                                                                               & I3R2C1                                & \begin{tabular}[c]{@{}l@{}}Income or operational sales, \\ both local and foreign, \\ perceived by the firm between \\ 2017 and 2018. \\ In thousands of Colombian Pesos.\end{tabular}                                                           \\ \cline{2-4} 
+		& \begin{tabular}[c]{@{}c@{}}Total spending on \\ innovative \\ activities\end{tabular}                                     & II1R10C2                              & \begin{tabular}[c]{@{}l@{}}Total investment by the firm \\ on innovative activities \\ for the 2017-2018 period.\end{tabular}                                                                                                                    \\ \cline{2-4} 
+		& Total employees                                                                                                           & PERTOTAL                              & \begin{tabular}[c]{@{}l@{}}Permanent amount of employees \\ within a firm. Includes owners, \\ temporal employees and \\ permanent roster.\end{tabular}                                                                                          \\ \cline{2-4} 
+		& Total Output                                                                                                              & PRODBIND                              & \begin{tabular}[c]{@{}l@{}}Firm output accounting for\\ the value of goods and services \\ at the end of the production process, \\ excluding intermediate goods.\\ In thousands of Colombian Pesos.\end{tabular}                                \\ \hline
+		\multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Technological \\ Opportunities\end{tabular}} & \begin{tabular}[c]{@{}c@{}}Possession of \\ conventional \\ protection \\ mechanisms \\ valid until \\ 2018\end{tabular}  & VI1R8C2                               & \begin{tabular}[c]{@{}l@{}}Prior to the 2017-2018 period, \\ and valid until the end of said year, \\ how many conventional protection\\ mechanisms were in possession \\ of the firm.\\ Ex: Patents, IP, Copyright, \\ Trademarks.\end{tabular} \\ \cline{2-4} 
+		& \begin{tabular}[c]{@{}c@{}}Obtention of \\ conventional \\ protection \\ mechanisms \\  between \\ 2017-2018\end{tabular} & VI2R8C2                               & \begin{tabular}[c]{@{}l@{}}Between 2017 and 2018, \\ how many conventional \\ protection mechanisms \\ did the firm acquire.\end{tabular}                                                                                                        \\ \cline{2-4} 
+		& \begin{tabular}[c]{@{}c@{}}Usage of \\ non-conventional \\ protection \\ mechanisms\end{tabular}                          & VI3R5C2                               & \begin{tabular}[c]{@{}l@{}}Between 2017 and 2018,\\ how many non-conventional\\ protection mechanisms \\ did the firm acquire.\\ Ex: Non-Disclosure Agreement,\\ industrial secrets,\\ high complexity on design\end{tabular}                    \\ \hline
+\end{longtable}
+
+
+\end{document}
