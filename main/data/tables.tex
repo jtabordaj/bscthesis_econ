@@ -1,0 +1,52 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath}				
+\usepackage[utf8]{inputenc}			
+\usepackage[T1]{fontenc}			
+\usepackage[spanish]{babel}			
+\usepackage{graphicx}				
+\usepackage{subfigure}				
+\usepackage{lscape}					
+\usepackage{pst-plot, pstricks}		
+\usepackage{fancybox,amssymb,color}	
+\usepackage{setspace}				
+\usepackage{booktabs} 				
+
+\onehalfspacing
+\pagestyle{plain}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{1ex}
+
+\usepackage{geometry}   		 
+\geometry{
+	a4paper,					 
+	left=30mm,					 
+	right=40mm,					 
+	top=35mm,					 
+	bottom=30mm,				 
+	includehead,				
+}
+
+\usepackage{multirow}
+
+\begin{document}
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+	\begin{tabular}{@{}lcl@{}}
+		\toprule
+		\multicolumn{1}{c}{\textbf{Dimension}} & \textbf{Concepts}                                                                                                                                       & \multicolumn{1}{c}{\textbf{Variables (by   DANE's code)}}                                                                                                               \\ \midrule
+		\multirow{3}{*}{Stability}             & \begin{tabular}[c]{@{}c@{}}Amount of \\ radical innovations\end{tabular}                                                                                & \begin{tabular}[c]{@{}l@{}}I1R1C1N, I1R1C2N, \\ I1R2C1N, I1R2C2N, \\ I1R3C1N, I1R3C2N, \\ I1R4C2N\end{tabular}                                                          \\ \cmidrule(l){2-3} 
+		& \begin{tabular}[c]{@{}c@{}}Amount of\\  incremental innovations\end{tabular}                                                                            & \begin{tabular}[c]{@{}l@{}}I1R1C1M, I1R1C2M, \\ I1R2C1M, I1R2C2M, \\ I1R3C2M, I1R4C2M\end{tabular}                                                                      \\ \cmidrule(l){2-3} 
+		& \begin{tabular}[c]{@{}c@{}}Innovation influence \\ to maintain market position\end{tabular}                                                             & I2R3C1                                                                                                                                                                  \\ \midrule
+		\multirow{5}{*}{Concentration}         & Total sales                                                                                                                                             & I3R1C1, I3R2C1                                                                                                                                                          \\ \cmidrule(l){2-3} 
+		& \begin{tabular}[c]{@{}c@{}}Total spending on \\ innovative activities\end{tabular}                                                                      & II1R10C1, II1R10C2                                                                                                                                                      \\ \cmidrule(l){2-3} 
+		& Total employees                                                                                                                                         & PERTOTAL                                                                                                                                                                \\ \cmidrule(l){2-3} 
+		& \begin{tabular}[c]{@{}c@{}}Employees devoted to \\ innovative activities\end{tabular}                                                                   & IV1R11C3,   IV1R11C4                                                                                                                                                    \\ \cmidrule(l){2-3} 
+		& Total Output                                                                                                                                            & PRODBIND                                                                                                                                                                \\ \midrule
+		\multirow{3}{*}{Appropriability}       & \begin{tabular}[c]{@{}c@{}}Possession of conventional \\ protection mechanisms valid until 2018 \\ (Patents, IP, \\ Copyright, Trademarks)\end{tabular} & \begin{tabular}[c]{@{}l@{}}VI1R1C1, VI1R1C2, VI1R2C1, \\ VI1R2C2, VI1R3C1, VI1R3C2, \\ VI1R4C1, VI1R4C2, VI1R5C1, \\ VI1R5C2, VI1R6C1, VI1R6C2, \\ VI1R8C2\end{tabular} \\ \cmidrule(l){2-3} 
+		& \begin{tabular}[c]{@{}c@{}}Obtention of conventional \\ protection mechanisms \\  between 2017-2018\end{tabular}                                        & \begin{tabular}[c]{@{}l@{}}VI2R1C1, VI2R1C2, VI2R2C1, \\ VI2R2C2, VI2R3C1, VI2R3C2, \\ VI2R4C1, VI2R4C2, VI2R5C1, \\ VI2R5C2, VI2R6C1, VI2R6C2, \\ VI2R8C2\end{tabular} \\ \cmidrule(l){2-3} 
+		& \begin{tabular}[c]{@{}c@{}}Usage of non-conventional \\ protection mechanisms\\  (NDA, industrial secrets, \\ high complexity on designs)\end{tabular}  & \begin{tabular}[c]{@{}l@{}}VI3R1C1, VI3R1C2, VI3R2C1, \\ VI3R2C2, VI3R3C1, VI3R3C2, \\ VI3R4C1, VI3R4C2, VI3R5C2\end{tabular}                                           \\ \bottomrule
+	\end{tabular}
+\end{table}
+\end{document}
