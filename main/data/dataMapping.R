@@ -1,7 +1,9 @@
 library(devtools)
+# devtools::install_github("nebulae-co/colmaps")
 library(colmaps)
 # colmap(departamentos)
 listaMuni <- data.frame(table(municipios@data[2]))[1]
+names(listaMuni)[1] <- "id_depto"
 
 atlasMethod <- function(sector, lowcolor, highcolor, title, subtitle){
     selectedSector <- sector

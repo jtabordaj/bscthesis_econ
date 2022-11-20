@@ -72,6 +72,9 @@ n_m2 <- sum(t_m2$n)
 
 ## Data vis for analysis
 
+blue <- c("#0a5ffd")
+red <- c("#fd0a0a")
+
 #STA
 
 STA1 <- ggplot(results, aes(STA)) + 
