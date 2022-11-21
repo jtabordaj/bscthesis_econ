@@ -45,7 +45,7 @@ knittedWear <- atlasMethod(sector1430, "#60adfa", "#005bb6", "Sector 1430: Elabo
 ggarrange(ncol = 2, nrow = 1, textileWear, knittedWear)
 
 ## Furnitures
-elabFurnit <- atlasMethod(sector3110, , "#fd5252", "#e60417", "Sector 3110: Elaboration of furnitures", "Mark I")
+elabFurnit <- atlasMethod(sector3110, "#fd5252", "#e60417", "Sector 3110: Elaboration of furnitures", "Mark I")
 elabMatres <- atlasMethod(sector3120, "#60adfa", "#005bb6", "Sector 3120: Elaboration of mattresses", "Mark II")
 ggarrange(ncol = 2, nrow = 1, elabFurnit, elabMatres)
 
@@ -63,6 +63,6 @@ oilRefin <- atlasMethod(sector1921, "#60adfa", "#005bb6", "Sector 1921: Petroleu
 oilRefin
 
 metalsOrMineralsConstruct <- rbind(sector2392, sector2394, sector2395, sector2410, sector2511, sector2592, sector2593, sector2599)
-commonMetals <- atlasMethod(metalsOrMineralsConstruct, "#fd5252", "#e60417", "Sectors 25, 24, 25: Ferrous Metals and minerals commonly used in construction and foundries", "(Selected industries) - Mark I" )
+commonMetals <- atlasMethod(metalsOrMineralsConstruct, "#fd5252", "#e60417", "Ferrous Metals and minerals for construction and foundries", "(Selected industries) - Mark I" )
 rareMetals <- atlasMethod(sector2429, "#60adfa", "#005bb6", "Sector 2429: Non-ferrous metals and other minerals", "Mark II" )
 ggarrange(ncol = 2, nrow = 1, commonMetals, rareMetals)

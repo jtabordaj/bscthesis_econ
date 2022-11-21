@@ -66,7 +66,7 @@ linkcolor=black
 \begin{abstract}
 The literature has continuously examined the relationship between market structure and innovation. Particularly, Joseph Schumpeter’s Mark I and Mark II innovation patterns inquired on what type of firm drives innovation based on competitive structures. Schumpeterian patterns of innovation have been widely used in the literature to classify productive sectors. However, said exercise is missing in periphery economies like Colombia, thus, this article will inquire in this matter by classifying Colombian industries across the secondary sector. 
 
-Through a k-means clusterization algorithm, industries are grouped based on three measures, similar to those employed in the literature: Stability of innovation, Technological Opportunities and Market Concentration. Clusterization yielded two groups of industries (CG1 and CG2). Both descriptive and inferential statistics assessed the features of each and provided evidence to argue in favour of CG1 as Mark II industries and CG2 as Mark I industries. Several policy implications are discussed afterwards, among these, the need for a differentiated approach for specific segments within the secondary sector. Sectoral relationships, strategic relevance to the country or historical features are key points to consider when elaborating incentive architectures that address the sectoral heterogeneity found in the research, in order to foster adequate environments for innovative activities to develop. 
+Through a k-means clusterization algorithm, industries are grouped based on three measures, similar to those employed in the literature: Stability of innovation, Technological Opportunities and Market Concentration. Clusterization yielded two groups of industries (CG1 and CG2). Both descriptive and inferential statistics assessed the features of each and provided evidence to argue in favour of CG1 as Mark II industries and CG2 as Mark I industries. Geographical information is also exploited to construct a spatial analysis and enrich clusterization results. Several policy implications are discussed afterwards, among these, the need for a differentiated approach for specific segments within the secondary sector. Sectoral relationships, strategic relevance to the country or historical features are key points to consider when elaborating incentive architectures that address the sectoral heterogeneity found in the research, in order to foster adequate environments for innovative activities to develop. 
 \end{abstract}
 
 \vspace*{\fill}
@@ -369,7 +369,7 @@ Additionally, all information is standardized prior to the cluster calculation, 
 \end{enumerate}
 
 \section{The Cluster}
-\subsection{Results}
+\subsection{Clusterization Results}
 \begin{figure}[H]	
 	\caption{Characterization of Colombian Manufacture using a two groups k-means clustering method}
 	\centering
@@ -407,7 +407,8 @@ In the case of CG1, we find a large value of Technological Opportunities, with i
 
 \subsection{Inferential analysis}
 
-In this section, results are put in context with Schumpeterian patterns of innovation by employing further data visualization and inferences. To begin with, results report lower Stability in CG2 when compared to CG1. Even though the mean difference in both groups is not large, data distribution as per Figure 2 shows that the density plot for CG1 has a prominent number of observations between 0 and -1, which in turn means, by the nature of the measure employed, that CG1 has many industries with a predominance of incremental innovations in their aggregates. This remark is reinforced by a highly positive skew of the distribution. 
+
+In this part, results are put in context with Schumpeterian patterns of innovation by employing further data visualization and inferences. To begin with, results report lower Stability in CG2 when compared to CG1. Even though the mean difference in both groups is not large, data distribution as per Figure 2 shows that the density plot for CG1 has a prominent number of observations between 0 and -1, which in turn means, by the nature of the measure employed, that CG1 has many industries with a predominance of incremental innovations in their aggregates. This remark is reinforced by a highly positive skew of the distribution. 
 
 In the case of CG2, it distributes mostly below 0, but its differentiating factor is its lower density when compared to CG1 across said interval. Even accounting for non-extreme values —that is, excluding the lower and upper ten per cent of each distribution—, results remain consistent. Skewness and kurtosis measures further support this idea. 
 
@@ -453,35 +454,29 @@ Said studies agree on two things, first, Mark I as a widening, dispersed and tur
 
 With emphasis on each dimension, the literature employed in the methodology shows coherence with the results. Malerba and Orsenigo (1996) concentration approach is consistent in this work, and the expansion to include novel measures has not distorted it, as less disperse firms present features proper of Mark II industries, and vice versa for Mark I. Maleki et al. (2018) form for technological opportunities shows a similar behaviour. Finally, the proposition of a novel measure for innovation Stability, based on Baumol (2004) proposition yielded intriguing results. 
 
-
-\section{Policy implications}
-
 \subsection{Intra-sectoral trends}
 
-By classifying industries in function of which firm drives innovation within them, we possess insights that may aid in the formulation of industrial policies. As we commented earlier on this research, due to its position as a periphery economy, commodities and first-generation manufacturing (textiles, clothing, footwear) are strategic sectors in Colombia, while advanced manufactures and technological appliances (computers, chipsets, telecommunications) are not. 
+By classifying industries in function of which firm drives innovation within them, we possess insights that may aid in the formulation of industrial policies. But first, we require context, as until now, every industry has been just a number. We will replace those numbers with names. As we commented earlier on this research, due to its position as a periphery economy, commodities and first-generation manufacturing (textiles, clothing, footwear) are strategic sectors in Colombia, while advanced manufactures and technological appliances (computers, chipsets, telecommunications) are not. 
 
 In this study, there is presence of industries dedicated to early manufactures and commodities, which prove strategic for the Colombian economy. For example, production of meat and fish products (101), general food products (102, 103, 104, 105, 108, 110), coffee (106), petroleum (192), metals and non-metallic minerals (239, 242, 251, 259, 241, 243), furnitures (311, 312), wood, paper and cardboard products (161, 163, 164, 170), and textiles (131, 139, 141, 143). \footnote{The numbers between parentheses represent either three or four-digit ISIC codes related to each sector or subsector. This information can be double-checked by referring to Annex 1 and 3} 
 
-Results show that 9 subsectors within the food products industry behave as Mark I, meaning that small firms drive innovation. Only one exception in this segment arises, cacao and chocolates (1082) find itself in a Mark II environment, which could be related to Colombia's Nutresa group (formerly known as \textit{Nacional de Chocolates}) influence in the domestic market. Moreover, this trend implies that flagship industries in Colombia like Coffee elaboration, which sustained its early economic growth in the 20th Century (Luzardo-Luna, 2019), has dispersed efforts, low market concentration and less technological opportunities reflected in less appropriability. Innovation policies targeted to these sectors may find better results by focusing on the features and interactions that may occur within this type of environment. 
+Results show that 9 subsectors within the food products industry behave as Mark I, meaning that small firms drive innovation. Only one exception in this segment arises, cacao and chocolates (1082) find itself in a Mark II environment, which could be related to Colombia's Nutresa group (formerly known as \textit{Nacional de Chocolates}) influence in the domestic market. Moreover, this trend implies that flagship industries in Colombia like Coffee elaboration, which sustained its early economic growth in the 20th Century (Luzardo-Luna, 2019), has dispersed efforts, low market concentration and less technological opportunities reflected in less appropriability.
 
 In the case of early manufactures like textiles, most subsectors find themselves with large concerns as the driver of innovation. Among these, weaving of textiles (1312), made-up articles for home and related (1392), knitting and crocheting (1391, 1430), and other textiles (1399). However, the most popular sector in this segment, the elaboration of wearing apparel (1410) using several types of materials (wool, leather, fabric, lace, et cetera) behaves as a Mark I industry. Similarly, finishing textiles (1313) through dyeing, dressing, drying or bleaching, behaves as Mark I. It is true that Mark II spans across several sectors, however, the two most important in this segment are not powered by large businesses when it comes to innovation.  
 
 This is not the only case, other segments also report mixed results. For example, in furnitures, the elaboration of furnitures (3110) in general behaves as a Mark I industry, while the elaboration of mattresses (3120) behaves as a Mark II industry. In the case of wood, cardboard and paper products, sawmilling of wood (1610) and elaboration of wood components for building (1630) have large corporations at the spearhead of innovative activities. However, elaboration of wood (1640), cardboard or paper containers (1702), and other manufactures of the same concern, like household and office products (1709) operate under Mark I environments. 
 
-A policy approach in this case should start by identifying the archetype of those sectors that sustain most of the productive activity in the country and build an incentive architecture around it. While  is true that most of the sectors in textiles behave as Mark II, the two most important in first-generation manufacturing behave as Mark I. A differentiated approach towards those that sustain the most is strongly advised, as the dynamics of these are different than the rest of their segment. 
+Finally, other important commodities like petroleum, metals, rocks and related items present mixed results. Petroleum has only one subsector in the study, which is the manufacture of several fuel types used in modern industrial activities (1921), making it a crucial subsector within its industry. This study has found it to operate within a Mark II environment, coherent with sectoral evidence, where Colombian state-owned Ecopetrol captures a considerable part of the fuel market. 
 
-Finally, other important commodities like petroleum, metals, rocks and related items present mixed results. Petroleum has only one subsector in the study, which is the manufacture of several fuel types used in modern industrial activities (1921), making it a crucial subsector within its industry. This study has found it to operate within a Mark II environment, coherent with sectoral evidence, where Colombian state-owned Ecopetrol captures a considerable part of the fuel market. In this case, the policy implication tends to gravitate towards incentives that favour the market leader. This is reinforced by the importance of the sector for modern activities. Favourable policies, together with suitable incentive architectures that lead to product or process improvements in this subsector have domino-effects in other sectors. As its final product is an input in other activities, an improvement here is an improvement in the cost structure of several firms. 
+On the other hand, the segment of metals and non-metallic minerals has a trend of Mark I industries. Manufacture of clay (2392), cement (2394), concrete (2395), basic iron and steel (2410), structural metals (2511), hand tools (2592), metal coating (2593), among others (2599) have a Mark I environment. However, production and refining of non-ferrous metals like nickel, copper, lead, chrome, manganese, zinc, aluminium, among others (2429) operates as a Mark II subsector. In this case, subsectors that treat conventional metals or minerals (iron, steel, clay, cement, et cetera) have dispersed efforts and less concentrated markets, but more specialized metals tend to be accumulated around the efforts of a small group of businesses.
 
-On the other hand, the segment of metals and non-metallic minerals has a trend of Mark I industries. Manufacture of clay (2392), cement (2394), concrete (2395), basic iron and steel (2410), structural metals (2511), hand tools (2592), metal coating (2593), among others (2599) have a Mark I environment. However, production and refining of non-ferrous metals like nickel, copper, lead, chrome, manganese, zinc, aluminium, among others (2429) operates as a Mark II subsector. 
-
-In this case, subsectors that treat conventional metals or minerals (iron, steel, clay, cement, et cetera) tend to have dispersed efforts and less concentrated markets, but more specialized metals tend to be concentrated around the efforts of a small group of businesses. Policies in this case should bear in mind this distinction in order to favour development. Moreover, in contrast with petroleum, another thing to consider in policy-building is that output across these subsectors is widely used either as input in other activities or as a final good for consumption.    
 
 \subsection{Sectoral regional distribution}
 
 As we said earlier, we will borrow theoretical elements about innovation systems to expand our understanding of the clusterization exercise. This will be done by incorporating a detailed spatial analysis of the industries studied within this document. To begin with, the following figure shows the spatial localization of those industries within the segment of food products.
 
 \begin{figure}
-	\caption{Spatial distribution of colombian industries in the segment of food products}
+	\caption{Spatial distribution of Colombian industries in the segment of food products}
 	\centering
 	\includegraphics[scale=0.4]{fp1} \\
 	\includegraphics[scale=0.4]{fp2}
@@ -489,18 +484,18 @@ As we said earlier, we will borrow theoretical elements about innovation systems
 	Source: Own elaboration
 \end{figure}
 
-At a regional level, both the Andean and Caribbean region have the most number of agglomerations. Within both, Atlantico and Magdalena are the most repeated in the Caribbean, but the frequency of firms in this region does not compare to the Andean, where Bogota\footnote{Per Colombia's political-administrative partition, Bogota is a first-order territory, with its own administrative autonomy. Despite acting as the capital of Cundinamarca, its population size and administrative faculties requires distinction}, Antioquia, Cundinamarca and Cauca Valley (\textit{Valle del Cauca}) have the majority of firms. Frequency differences within the Andean region also arise, Antioquia reports a persisting trend of holding denser clusters of firms across sectors.
+At a regional level, both the Andean and Caribbean region have the most number of agglomerations. Within both, Atlántico and Magdalena are the most repeated in the Caribbean, but the frequency of firms in this region does not compare to the Andean, where Bogotá\footnote{Per Colombia's political-administrative partition, Bogotá is a first-order territory, with its own administrative autonomy. Despite acting as the capital of Cundinamarca, its population size and administrative faculties requires distinction}, Antioquia, Cundinamarca and Cauca Valley (\textit{Valle del Cauca}) have the majority of firms. Frequency differences within the Andean region also arise, Antioquia reports a persisting trend of holding denser clusters of firms across sectors.
 
 In this case of a predominantly Mark I segment, spatial distribution tends to span across several departments, but following a very fractionalized, this can be seen clearly on sectors like oil and fats (1030), fruits and vegetables (1020), dairy (1040) and milling products (1051). Production of bread and similar goods seems to be evenly distributed with Antioquia and Cauca Valley as leaders, nevertheless, this trend does not repeat anywhere else. The only Mark II industry (chocolates, 1089) spans across the Caribbean and Andean region without major breaks in the distribution, but with two dense centres in Cauca Valley and Antioquia.
 
-Now, if we extend to a context-specific sectoral analysis, then we can draw further conclusions. For example, dairy (1040), together with meat and fish products (1011), agglomerate near valleys for livestock, or coasts for fish, but also near major urban centres, looking for easy access to transport hubs and other inputs. On the other hand, processing of fruits and vegetables locate near major cities (Cali in Cauca Valley, Barranquilla in Atlantico, Medellin in Antioquia and Bogota in Cundinamarca), and Coffee products (1061) show expected results, as the map points to agglomeration around the well-known Coffee Axis (\textit{Eje cafetero}). 
+Now, if we extend to a context-specific sectoral analysis, then we can draw further conclusions. For example, dairy (1040), together with meat and fish products (1011), agglomerate near valleys for livestock, or coasts for fish, but also near major urban centres, looking for easy access to transport hubs and other inputs. Similarly, processing of fruits and vegetables locate near major cities (Cali in Cauca Valley, Barranquilla in Atlántico, Medellín in Antioquia and Bogotá in Cundinamarca), and Coffee products (1061) show expected results, as the map points to agglomeration around the well-known Coffee Axis (\textit{Eje cafetero}). 
 
-Moreover, institutional factors and transport routes seem to highly affect localization decisions. Industries not only find enough labour and capital inputs in major urban centres, they also benefit of nearby access to transport hubs (e.g \textit{El Dorado} airport in Bogota, Magdalena river and caribbean ports like Barranquilla or Cartagena), close distance to government authorities, and thus, an assured enforcement of the law. This seems to be a crucial factor on the firm decision to locate geographically.
+Moreover, institutional factors and transport routes seem to highly affect localization decisions. Industries not only find enough labour and capital inputs in major urban centres, they also benefit of nearby access to transport hubs (e.g \textit{El Dorado} airport in Bogotá, Buenaventura port in Cauca Valley, Magdalena river and Caribbean ports like Barranquilla or Cartagena), close distance to government authorities, and thus, an assured enforcement of the law. This seems to be a crucial factor on the firm decision to locate geographically.
 
 In the case of textile products and wearing apparel, the following figure shows their spatial distribution. Results show much more narrow clusters, and this may provide evidence to reinforce the institutional factors that we discussed previously. Across all sectors in Mark II, and one in Mark I, dense agglomerations appear near major cities in central Colombia. Only the elaboration of wearing apparel (1410) is somewhat disperse, but even its dispersion falls within the Andean region centre, where institutional presence and law enforcement is higher than in peripheral regions. Centralism seems to be a strong political economy trend in Colombia, or at least in the elaboration of textiles
 
 \begin{figure}
-	\caption{Spatial distribution of colombian industries in the segment of textiles}
+	\caption{Spatial distribution of Colombian industries in the segment of textiles}
 	\centering
 	\includegraphics[scale=0.6]{et1} \\
 	\includegraphics[scale=0.6]{et2} 
@@ -508,10 +503,37 @@ In the case of textile products and wearing apparel, the following figure shows 
 	Source: Own elaboration
 \end{figure}
 
-On the other hand, Antioquia reinforces its position as the department with most agglomerations. Cauca Valley and Cundinamarca (including Bogota) follow. The Caribbean coast and some regions on the east dissapeared from the map in this segment. Antioquia's position echoes with its 19th and 20th century economic history. As noted by Ocampo (2015) and Luzardo-Luna (2019), hard-currency profits from coffee exports, human capital formation, informal ties between citizens, railway infrastructure, and other resource endowments consolidated Antioquia as an industrial powerhouse, with domestic concerns like Coltejer (\textit{Colombiana de tejidos}) and Fabricato (\textit{Hilados y tejidos del hato}). Results in this article show that this consolidation persists until today, even despite  fiercer foreign competition due to trade liberalization.
+On the other hand, Antioquia reinforces its position as the department with most agglomerations. Cauca Valley and Cundinamarca (including Bogotá) follow. The Caribbean coast and some regions on the east dissapeared from the map in this segment. Antioquia's position echoes with its 19th and 20th century economic history. As noted by Ocampo (2015) and Luzardo-Luna (2019), hard-currency profits from coffee exports, human capital formation, informal ties between citizens, railway infrastructure, and other resource endowments consolidated Antioquia as an industrial powerhouse, with domestic concerns like Coltejer (\textit{Colombiana de tejidos}) and Fabricato (\textit{Hilados y tejidos del hato}). Results in this article show that this agglomeration of firms persists until today.. \newpage
 
-We now turn our attention to the segment of... WIP
+We now turn our attention to other segment. In Figure 7, the spatial distribution of industries dedicated to produce petroleum, metal or minerals is shown \footnote{Note that the map for metals does not specify the two-digit ISIC sector, to avoid titles that go beyond the map figure. This is made in accordance with EDIT's methodology, that selects specific four-digit sectors. These sectors can be checked on Annex 1}. In the case of Colombia's most strategic sector (1921, petroleum), spatial distribution shows close proximity to major cities and urban centres like Bogotá in Cundinamarca, following the trend of past segments. Institutional factors may be of influence, as we have discussed, however, shipping routes and access to transport hubs may also influence. Take for example Cauca Valley and Atlántico, both have petroleum refineries in their territory, and major ports to ship petroleum to international markets. Similarly, Santander and Antioquia's proximity to the Magdalena river allows for buildings like Ecopetrol's Barrancabermeja Complex to localize there.
 
+\begin{figure}
+	\caption{Spatial distribution of Colombian industries in the segment of metals, minerals and petroleum}
+	\centering
+	\includegraphics[scale=0.6]{metals} \\
+	\includegraphics[scale=0.3]{petrol} \\
+	Source: Own elaboration
+\end{figure}
+
+On the other hand, ferrous metals and minerals commonly used in construction and foundries are widely spread across the country, without major breaks geographically. Note that earlier (e.g, maps for 1011 and 1081) we found a similar distribution, that spreads across the Caribbean and Andean regions. These industries have proven to have the most extensive spatial distributions across the study, and all of them are Mark I.
+
+However, this is not the case for processes requiring more specialized metals and minerals (2429), as these tend to be less disperse and more concentrated in major urban centres and main transport hubs, similar to some textile industries, which, just like this one, are Mark II industries. Antioquia, once again, configures itself as the main region for agglomerations, with Cauca Valley, Cundinamarca and the capital city following. 
+
+Finally, the last segment to analyse is the elaboration wood, cardboard and paper products, together with furnitures and mattresses. Figure 8 presents the spatial distribution of this segment. 
+
+
+\begin{figure}
+	\caption{Spatial distribution of Colombian industries in the segment of household furnitures, wood, paper and cardboard products}
+	\centering
+	\includegraphics[scale=0.6]{woodcard1} \\
+	\includegraphics[scale=0.6]{woodcard2} \\
+	\includegraphics[scale=0.6]{furnit} \\
+	Source: Own elaboration
+\end{figure}
+
+Similar to intra-sectorial trends discussed earlier, these results are mixed. Note, for example, elaboration of containers (1702), a spatial distribution like this was only seen on Mark II industries until now. In parallel, wood sawmilling (1618) has a Mark I-like dispersion. But at the same time, a Mark I industry like elaboration of furnitures (3110) spreads across central Andean region, and a Mark II industry like elaboration of mattresses (3120) concentrates on major centres of interest, similar to the behaviour shown earlier. It seems that Schumpeterian archetypes do determine localization at a certain degree, but other factors seem to be more entangled with this decision. In accordance with theory on innovation systems, we could regard institutional coverage and interactions, input access and transport hubs as the reasons behind.
+
+Somehting to consider about this is that Antioquia once again maintains its position as the main national cluster, as all industries, regardless of their Schumpeterian archetype, tend to agglomerate there instead of other regions. The Caribbean has fallen behind as we move forward in segments. In this case, only Atlántico shows presence of industries, in contrast to previous maps where Magdalena, Bolivar or Cordoba reported firms within their territories. A vast centralism around central Andean, Cauca valley and north Caribbean seems to domain in this analysis. Bear in mind that we are yet to see a significant pattern of industries agglomerating either in the Amazonas or eastern Colombia.
 
 
 
@@ -520,6 +542,19 @@ We now turn our attention to the segment of... WIP
 % Textiles reinforce that ^
 % First segment seem to have cauca and antioquia as leaders overall and in the Andean. Bogota follows in the Andean. Atlantico and magdalena seem to be of interest in the caribbean but are smaller in density
 % Second segment consolidates antioquia as main cluster, Cauca Valley and Cundinamarca follow. Labour inputs, tap potential markets and access to resources may explain??
+\section{Policy implications}
+
+\textbf{MUST REARRANGE}
+
+\textbf{Innovation policies targeted to these sectors may find better results by focusing on the features and interactions that may occur within this type of environment. }
+
+\textbf{A policy approach in this case should start by identifying the archetype of those sectors that sustain most of the productive activity in the country and build an incentive architecture around it. While  is true that most of the sectors in textiles behave as Mark II, the two most important in first-generation manufacturing behave as Mark I. A differentiated approach towards those that sustain the most is strongly advised, as the dynamics of these are different than the rest of their segment. 
+}
+
+\textbf{In this case, the policy implication tends to gravitate towards incentives that favour the market leader. This is reinforced by the importance of the sector for modern activities. Favourable policies, together with suitable incentive architectures that lead to product or process improvements in this subsector have domino-effects in other sectors. As its final product is an input in other activities, an improvement here is an improvement in the cost structure of several firms. }
+
+\textbf{Policies in this case should bear in mind this distinction in order to favour development. Moreover, in contrast with petroleum, another thing to consider in policy-building is that output across these subsectors is widely used either as input in other activities or as a final good for consumption.  }  
+
 
 \section{Conclusions and final remarks}
 

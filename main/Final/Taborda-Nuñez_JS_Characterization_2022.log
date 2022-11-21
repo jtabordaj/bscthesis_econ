@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.13)  19 NOV 2022 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.13)  21 NOV 2022 14:26
 entering extended mode
 **./Taborda-Nuñez_JS_Characterization_2022.tex
 (Taborda-Nuñez_JS_Characterization_2022.tex
@@ -928,7 +928,7 @@ Overfull \hbox (13.55168pt too wide) in alignment at lines 273--287
  []
 
 [13] [14] [15] [16] [17] [18]
-<images/cluster.png, id=237, 1096.095pt x 697.60625pt>
+<images/cluster.png, id=243, 1096.095pt x 697.60625pt>
 File: images/cluster.png Graphic file (type png)
 <use images/cluster.png>
 Package pdftex.def Info: images/cluster.png  used on input line 376.
@@ -939,110 +939,138 @@ Overfull \hbox (37.99408pt too wide) in paragraph at lines 376--378
  []
 
 [19 <./images/cluster.png>] [20]
-<images/sta.png, id=248, 1096.095pt x 697.60625pt>
+<images/sta.png, id=254, 1096.095pt x 697.60625pt>
 File: images/sta.png Graphic file (type png)
 <use images/sta.png>
-Package pdftex.def Info: images/sta.png  used on input line 419.
+Package pdftex.def Info: images/sta.png  used on input line 420.
 (pdftex.def)             Requested size: 493.23819pt x 313.9199pt.
 
-Overfull \hbox (37.99408pt too wide) in paragraph at lines 419--421
+Overfull \hbox (37.99408pt too wide) in paragraph at lines 420--422
  [][] 
  []
 
 [21 <./images/sta.png>]
-<images/pcon.png, id=255, 1096.095pt x 640.3925pt>
+<images/pcon.png, id=261, 1096.095pt x 640.3925pt>
 File: images/pcon.png Graphic file (type png)
 <use images/pcon.png>
-Package pdftex.def Info: images/pcon.png  used on input line 430.
+Package pdftex.def Info: images/pcon.png  used on input line 431.
 (pdftex.def)             Requested size: 493.23819pt x 288.17395pt.
 
-Overfull \hbox (37.99408pt too wide) in paragraph at lines 430--432
+Overfull \hbox (37.99408pt too wide) in paragraph at lines 431--433
  [][] 
  []
 
 [22 <./images/pcon.png>]
-<images/to.png, id=261, 1096.095pt x 640.3925pt>
+<images/to.png, id=267, 1096.095pt x 640.3925pt>
 File: images/to.png Graphic file (type png)
 <use images/to.png>
-Package pdftex.def Info: images/to.png  used on input line 441.
+Package pdftex.def Info: images/to.png  used on input line 442.
 (pdftex.def)             Requested size: 493.23819pt x 288.17395pt.
 
-Overfull \hbox (37.99408pt too wide) in paragraph at lines 441--443
+Overfull \hbox (37.99408pt too wide) in paragraph at lines 442--444
  [][] 
  []
 
 [23 <./images/to.png>] [24] [25]
-<images/fp1.png, id=277, 1156.32pt x 606.46574pt>
+<images/fp1.png, id=283, 1156.32pt x 606.46574pt>
 File: images/fp1.png Graphic file (type png)
 <use images/fp1.png>
-Package pdftex.def Info: images/fp1.png  used on input line 486.
+Package pdftex.def Info: images/fp1.png  used on input line 481.
 (pdftex.def)             Requested size: 462.5198pt x 242.58199pt.
 
-Overfull \hbox (7.2757pt too wide) in paragraph at lines 486--486
+Overfull \hbox (7.2757pt too wide) in paragraph at lines 481--481
  [][] 
  []
 
-<images/fp2.png, id=278, 1156.32pt x 606.46574pt>
+<images/fp2.png, id=284, 1156.32pt x 606.46574pt>
 File: images/fp2.png Graphic file (type png)
 <use images/fp2.png>
-Package pdftex.def Info: images/fp2.png  used on input line 487.
+Package pdftex.def Info: images/fp2.png  used on input line 482.
 (pdftex.def)             Requested size: 462.5198pt x 242.58199pt.
-<images/sodas.png, id=279, 1156.32pt x 606.46574pt>
+<images/sodas.png, id=285, 1156.32pt x 606.46574pt>
 File: images/sodas.png Graphic file (type png)
 <use images/sodas.png>
-Package pdftex.def Info: images/sodas.png  used on input line 488.
+Package pdftex.def Info: images/sodas.png  used on input line 483.
 (pdftex.def)             Requested size: 289.07928pt x 151.61606pt.
 
-Overfull \hbox (7.2757pt too wide) in paragraph at lines 487--488
+Overfull \hbox (7.2757pt too wide) in paragraph at lines 482--483
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 9.09436pt on input line 490.
+LaTeX Warning: Float too large for page by 9.09436pt on input line 485.
 
 [26] [27 <./images/fp1.png> <./images/fp2.png (PNG copy)> <./images/sodas.png>]
-<images/et1.png, id=292, 602.25pt x 328.97906pt>
+<images/et1.png, id=299, 602.25pt x 328.97906pt>
 File: images/et1.png Graphic file (type png)
 <use images/et1.png>
-Package pdftex.def Info: images/et1.png  used on input line 505.
+Package pdftex.def Info: images/et1.png  used on input line 500.
 (pdftex.def)             Requested size: 361.35278pt x 197.38895pt.
-<images/et2.png, id=293, 602.25pt x 316.93407pt>
+<images/et2.png, id=300, 602.25pt x 316.93407pt>
 File: images/et2.png Graphic file (type png)
 <use images/et2.png>
-Package pdftex.def Info: images/et2.png  used on input line 506.
+Package pdftex.def Info: images/et2.png  used on input line 501.
 (pdftex.def)             Requested size: 361.35278pt x 190.1619pt.
-<images/et3.png, id=294, 602.25pt x 312.41719pt>
+<images/et3.png, id=301, 602.25pt x 312.41719pt>
 File: images/et3.png Graphic file (type png)
 <use images/et3.png>
-Package pdftex.def Info: images/et3.png  used on input line 507.
+Package pdftex.def Info: images/et3.png  used on input line 502.
 (pdftex.def)             Requested size: 361.35278pt x 187.45175pt.
-[28] [29 <./images/et1.png> <./images/et2.png> <./images/et3.png>] [30]
-[31] [32] [33] [34] [35] [36]
-Underfull \vbox (badness 10000) detected at line 678
- []
-
-[37]
-Underfull \vbox (badness 10000) detected at line 739
- []
-
+[28] [29 <./images/et1.png> <./images/et2.png> <./images/et3.png>]
+<images/metals.png, id=314, 602.25pt x 304.13625pt>
+File: images/metals.png Graphic file (type png)
+<use images/metals.png>
+Package pdftex.def Info: images/metals.png  used on input line 513.
+(pdftex.def)             Requested size: 361.35278pt x 182.48315pt.
+<images/petrol.png, id=315, 602.25pt x 654.94687pt>
+File: images/petrol.png Graphic file (type png)
+<use images/petrol.png>
+Package pdftex.def Info: images/petrol.png  used on input line 514.
+(pdftex.def)             Requested size: 180.67639pt x 196.48558pt.
+<images/woodcard1.png, id=316, 602.25pt x 313.17pt>
+File: images/woodcard1.png Graphic file (type png)
+<use images/woodcard1.png>
+Package pdftex.def Info: images/woodcard1.png  used on input line 528.
+(pdftex.def)             Requested size: 361.35278pt x 187.90344pt.
+<images/woodcard2.png, id=317, 602.25pt x 313.9228pt>
+File: images/woodcard2.png Graphic file (type png)
+<use images/woodcard2.png>
+Package pdftex.def Info: images/woodcard2.png  used on input line 529.
+(pdftex.def)             Requested size: 361.35278pt x 188.35512pt.
+<images/furnit.png, id=318, 602.25pt x 310.15875pt>
+File: images/furnit.png Graphic file (type png)
+<use images/furnit.png>
+Package pdftex.def Info: images/furnit.png  used on input line 530.
+(pdftex.def)             Requested size: 361.35278pt x 186.09668pt.
+ [30]
+[31 <./images/metals.png> <./images/petrol.png>] [32 <./images/woodcard1.png> <
+./images/woodcard2.png> <./images/furnit.png>] [33] [34] [35] [36] [37]
 [38] [39] [40]
-Underfull \vbox (badness 10000) detected at line 817
+Underfull \vbox (badness 10000) detected at line 713
  []
 
-[41] [42] [43] (Taborda-Nuñez_JS_Characterization_2022.aux)
+[41]
+Underfull \vbox (badness 10000) detected at line 774
+ []
+
+[42] [43] [44]
+Underfull \vbox (badness 10000) detected at line 852
+ []
+
+[45] [46] [47] (Taborda-Nuñez_JS_Characterization_2022.aux)
 Package rerunfilecheck Info: File `Taborda-Nuñez_JS_Characterization_2022.out'
  has not changed.
-(rerunfilecheck)             Checksum: 0E946E9C4345D1F8437127464EC667D7;913.
+(rerunfilecheck)             Checksum: AC93F7C36D93E8BDA369895C1E7ADFB1;928.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 546 ({)
+### simple group (level 1) entered at line 581 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18705 strings out of 479799
- 318129 string characters out of 2868772
- 798792 words of memory out of 3000000
- 35220 multiletter control sequences out of 15000+200000
+ 18752 strings out of 479799
+ 318912 string characters out of 2868772
+ 798789 words of memory out of 3000000
+ 35255 multiletter control sequences out of 15000+200000
  552908 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,15n,77p,1197b,522s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1068,10 +1096,10 @@ Users/Windows/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><C:/Users/Windows/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/Windows/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb>
-Output written on Taborda-Nuñez_JS_Characterization_2022.pdf (47 pages, 695638
+Output written on Taborda-Nuñez_JS_Characterization_2022.pdf (51 pages, 769824
  bytes).
 PDF statistics:
- 927 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 970 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
