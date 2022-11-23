@@ -23,7 +23,7 @@ R and LaTeX
 
 The root folder contains the main lineages of the course (rules, due dates and so on). 
 
-The ### ./src folder contains three folders. 
+The ./src folder contains three folders. 
 
 ### ./src/data
 
