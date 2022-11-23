@@ -12,7 +12,7 @@ This is meant to be a public access repository for my thesis in the future, just
 - Why: Characterizations using Schumpeterian archetypes have been made in the world, but not in Colombia.
 - Usage: Econometrics and Policy implications
 - How: Exploiting information from DANE's EAM and EDIT surveys (2018)
-- Measures: Three commonly used in the literature: Concentration, Technological Opportunities and Appropriability
+- Measures: Three commonly used in the literature: Concentration, Technological Opportunities and Stability
 - Cluster: k-means algorithm (Lloyd). 2 groups and 10 repetitions. Data is on euclid distance (pca employed), and distance is standardized.
 
 ## Softwares used
