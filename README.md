@@ -23,9 +23,9 @@ R and LaTeX
 
 The root folder contains the main lineages of the course (rules, due dates and so on). 
 
-The ./src folder contains three folders. 
+The ### ./src folder contains three folders. 
 
-### ./data
+### ./src/data
 
 This is the back end of my research. There are four important .R files: 
 
@@ -34,7 +34,7 @@ dataAnalysis: Creation of measures
 dataVisualization: All things figures + the cluster
 dataMapping: All things maps
 
-### ./defenses and ./writing
+### ./src/defenses and ./src/writing
 
 The front end of my research. Each has three folders, one for every due date during the course and the progress made up to that point.
 Those folders with "Final" on the name indicate that is the last version of the file (my finished thesis)
