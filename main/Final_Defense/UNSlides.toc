@@ -1,7 +1,0 @@
-\babel@toc {english}{}\relax 
-\beamer@sectionintoc {1}{Introduction and setup}{3}{0}{1}
-\beamer@sectionintoc {2}{Theory and Literature}{6}{0}{2}
-\beamer@sectionintoc {3}{Methodology}{13}{0}{3}
-\beamer@sectionintoc {4}{The Cluster}{18}{0}{4}
-\beamer@sectionintoc {5}{Implications}{25}{0}{5}
-\beamer@sectionintoc {6}{Conclusions}{29}{0}{6}
