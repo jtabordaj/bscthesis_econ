@@ -29,10 +29,10 @@ The ./src folder contains three folders.
 
 This is the back end of my research. There are four important .R files: 
 
-dataCleaning: Main filters and cleaning the database
-dataAnalysis: Creation of measures
-dataVisualization: All things figures + the cluster
-dataMapping: All things maps
+- dataCleaning: Main filters and cleaning the database
+- dataAnalysis: Creation of measures
+- dataVisualization: All things figures + the cluster
+- dataMapping: All things maps
 
 ### ./src/defenses and ./src/writing
 
