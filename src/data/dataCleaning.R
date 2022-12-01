@@ -13,8 +13,8 @@ library(ggpubr)
 library(moments)
 
 ## data
-edit <- as.data.frame(read_dta('./main/data/EDIT.dta')) 
-eam <- as.data.frame(read_dta('./main/data/EAM.dta')) 
+edit <- as.data.frame(read_dta('./src/data/EDIT.dta')) 
+eam <- as.data.frame(read_dta('./src/data/EAM.dta')) 
 
 ## first filters
 edit <- edit %>%
