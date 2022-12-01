@@ -64,21 +64,21 @@
 	\begin{frame}[allowframebreaks]
 		\frametitle{Introduction} 
 		\begin{itemize}
-			\item The question I will answer today is \textbf{Who drives innovation within an industry?}
-			\item I will use Schumpeterian patterns of innovation: \textcolor{red}{Mark I} and \textcolor{blue}{Mark II}
-			\item Characterization exercises "\textit{have been standing the test of time quite well}" (Fontana et al., 2012). \textbf{But they are missing in some countries}
-			\item I will do it for Colombia, using a cluster algorithm with three indicators commonly used in the literature
-			\item \textbf{Data sources:} EDIT and EAM surveys (2018)
+			\item The question I will answer today is \textbf{Who drives innovation within an industry?}.
+			\item I will use Schumpeterian patterns of innovation: \textcolor{red}{Mark I} and \textcolor{blue}{Mark II}.
+			\item Characterization exercises "\textit{have been standing the test of time quite well}" (Fontana et al., 2012). \textbf{But they are missing in some countries}.
+			\item I will do it for Colombia, using a cluster algorithm with three indicators commonly used in the literature.
+			\item \textbf{Data sources:} EDIT and EAM surveys (2018). Both \textbf{spatial} and \textbf{numeric} variables are of interest.
 		\end{itemize}
 	\end{frame}	
 	\begin{frame}
-		\frametitle{Objectives}
-		Main objective: \textbf{characterize} Colombian industries within the manufacturing sectors as Mark I or Mark II industries.
+		\frametitle{Question and Objectives}
+		\textbf{Main objective}: \textbf{characterize} Colombian industries within the manufacturing sectors as Mark I or Mark II industries.
 		\begin{itemize}
 			\item \textbf{Combine information} from EAM and EDIT
 			\item \textbf{Construct quantitative analysis} at the firm level
 			\item \textbf{Group industries} through a cluster algorithm
-			\item \textbf{Inquire} on potential policy implications
+			\item \textbf{Inquire} on potential policy implications, based on both spatial and numeric results
 		\end{itemize}
 	\end{frame}
 \section{Theory and Literature}
@@ -125,16 +125,26 @@
 			\item Shapiro's revisit (2012): Unifying principle... \textbf{competition}
 		\end{itemize}	
 	\end{frame}
+	\begin{frame}[allowframebreaks]
+		\frametitle{Innovation systems}
+		\begin{itemize}
+			\item A set of interactions that foster, create, transform and diffuse
+			knowledge on a specific territory (Nelson, 1993)
+			\item \textbf{National} Innovation Systems (Nelson, 1993) \textit{NSI}
+			\item \textbf{Sectoral} Innovation Systems (Malerba, 2002;2003;2005) \textit{SSI}
+			\item \textbf{Regional} Innovation Systems (Asheim and Gertler, 2006) \textit{RSI}
+			\item Concepts of interest: Institutionalism, spatial economics, agglomeration
+			\item The literature focus is NSI, this article will be at an RSI level
+		\end{itemize}
+	\end{frame}
 	\begin{frame}
 		\frametitle{Literature}
-		Market structure as a determinant of innovation (Loury, 1979; Mansfield, 1963; Raider, 1998)
 		\begin{itemize}
-			\item Previous characterizations: Malerba and Orsenigo (1996), Breschi et al. (2000), Landström \& Schön (2010), Castellaci and Zheng (2010), Corrocher et al. (2007).
-		\end{itemize}
-		Two alternatives
-		\begin{itemize}
-			\item Pavitt: \textbf{Kondratiev waves} (Archibugi, 2001), high-tech and specialized sectors
-			\item Schumpeter: \textbf{Early/Late stages of an industry} (Malerba, 2005), very flexible.
+			\item \textbf{Market structure as a determinant of innovation} (Loury, 1979; Mansfield, 1963; Raider, 1998)
+			\item \textbf{Previous characterizations:} Malerba and Orsenigo (1996), Breschi et al. (2000), Landström \& Schön (2010), Castellaci and Zheng (2010), Corrocher et al. (2007).
+			\item \textbf{Pavitt's alternative} based on \textbf{Kondratiev waves} (Archibugi, 2001).
+			\item Schumpeter's focus on \textbf{Early/Late stages of an industry} (Malerba, 2005).
+			
 		\end{itemize}
 	\end{frame}
 	\begin{frame}
@@ -152,14 +162,12 @@
 	 \begin{frame}
 	 	\frametitle{Data sources}
 	 	\begin{itemize}
-	 		\item Cross-section
-	 		\item Inner join of 2018 \textbf{EDIT} ("\textit{Encuesta de Desarrollo
-	 		e innovación tecnológica}") and \textbf{EAM} (\textit{Encuesta Anual Manufacturera}) surveys by DANE (2019;2020)
-	 		\item EAM is a \textbf{census}; EDIT samples EAM \textbf{industries} --> Inner join
-	 		\item Criteria: Employees and profits. Small firms and the informal economy are excluded
-	 		\item Each firm has a \textit{"Numero de Orden}" (NORDEMP)
-	 		\item Scope: secondary sector, three to four ISIC digits. Initial \textbf{n = 6405}
+	 		\item Cross-section, inner join of 2018 \textbf{EAM} and manufacture \textbf{EDIT}. 
+	 		\item EAM is a census of firms with $>10$ employees or 517 million pesos in sales. EDIT samples EAM sectors and follows OECD guidelines.
+	 		\item Small firms and the informal economy are excluded.
+	 		\item Each firm has a \textit"{Numero de Orden}" (NORDEMP) for identification, and an \textit"{ID Departamental}" (DIVIPOLA) for spatial analysis.
 	 	\end{itemize}
+ 	Initial \textbf{n = 6405}
 	 \end{frame}
      \begin{frame}[allowframebreaks]
      	\frametitle{Dimensions}
@@ -167,7 +175,7 @@
      	\begin{itemize}
      		\item Malerba and Orsenigo (1996)
      		\item H-H Concentration Index of Market Share of output, innovative activities, labour demand and supply
-     		\item Geometrical mean
+     		\item Geometrical mean to smooth values
      	\end{itemize} 
      	\begin{equation}
      		\centering
@@ -179,7 +187,7 @@
      \begin{itemize}
      	\item Maleki et al. (2018)
      	\item Relative change of protection mechanisms 
-     	\item Conventional and non-conventional
+     	\item Conventional and non-conventional, so we see the larger picture
      \end{itemize}
  	 \begin{equation}
  	 \centering
@@ -205,8 +213,8 @@
 			\item Some data limitations --> Data availability
 			\item Some industries report zero innovation spending, or have a small amount of firms
 			\item Filter for industries with less than 20 firms. Resulting \textbf{n = 5986}
-			\item k-means cluster --> Lloyd algorithm and 10 repetitions
 		\end{itemize}
+	k-means cluster: Lloyd algorithm, 10 repetitions, standardized euclid distance with low $\rho$ between measures ($<|0.1|$)
 	\end{frame}
 	\begin{frame}
 		\begin{figure}[H]	
